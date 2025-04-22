@@ -21,14 +21,16 @@ public class ParkingSpot {
         this.id = id;
         this.type = type;
     }
+
     public boolean canFit(Vehicle vehicle) {
         return !isOccupied;
     }
 
     public void park(Vehicle vehicle) {
-    this.currentVehicle = vehicle;
-    this.isOccupied = true;
+        this.currentVehicle = vehicle;
+        this.isOccupied = true;
     }
+
     public void unpark() {
         this.currentVehicle = null;
         this.isOccupied = false;
