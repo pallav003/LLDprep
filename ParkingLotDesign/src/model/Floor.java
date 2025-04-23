@@ -11,6 +11,7 @@ public class Floor {
         this.id = id;
         this.spotList = spotList;
     }
+
     public List<ParkingSpot> getAvailableSpots() {
         return spotList.stream().filter(spots -> !spots.isOccupied()).toList();
     }

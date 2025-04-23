@@ -12,6 +12,7 @@ public class ParkingLot {
         this.strategy = strategy;
         this.floors = floors;
     }
+
     public ParkingSpot parkVehicle(Vehicle vehicle) {
         for (Floor floor : floors) {
             ParkingSpot spot = strategy.findSpot(floor.getAvailableSpots(), vehicle);
@@ -22,6 +23,7 @@ public class ParkingLot {
         }
         return null;
     }
+
     public void unparkVehicle(ParkingSpot spot) {
         spot.unpark();
     }
