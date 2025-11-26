@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/ElevatorDesign/ElevatorDesign.iml" filepath="$PROJECT_DIR$/ElevatorDesign/ElevatorDesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/LLD.iml" filepath="$PROJECT_DIR$/LLD.iml" />
       <module fileurl="file://$PROJECT_DIR$/ParkingLotDesign/ParkingLotDesign.iml" filepath="$PROJECT_DIR$/ParkingLotDesign/ParkingLotDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VectorClock/VectorClock.iml" filepath="$PROJECT_DIR$/VectorClock/VectorClock.iml" />
     </modules>
   </component>
 </project>
